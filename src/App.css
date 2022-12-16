@@ -2,14 +2,23 @@
   text-align: center;
 }
 
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
 .calculator {
   width: 300px;
   height: 300px;
   background-color: #d1d1d1;
   border: 1px solid #0000002e;
   border-radius: 10px;
-  margin: 0 auto;
-  margin-top: 100px;
+  position: relative;
+  left: 280px;
+  margin-top: 20px;
   padding: 3px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
   display: grid;
@@ -56,4 +65,49 @@ button:active {
   background-color: #adadad;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
   transform: scale(0.95);
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5%;
+  margin-inline: 10%;
+  border-bottom: solid 0.5px gray;
+  font-family: "Yusei Magic", sans-serif;
+  font-size: larger;
+}
+
+.navLink {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  list-style-type: none;
+}
+
+.navItem a,
+span {
+  padding-right: 10px;
+  text-decoration: none;
+  color: #787878;
+}
+
+.home {
+  padding: 0 5%;
+  margin: 10%;
+}
+
+#header {
+  font-family: "Yusei Magic", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #424242;
+  display: flex;
+  margin-left: 10%;
+  align-self: flex-start;
+}
+
+.quote {
+  margin: 15% 20%;
 }
