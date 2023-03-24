@@ -1,5 +1,6 @@
 import React from 'react';
 import calculate from '../logic/calculate';
+import Quote from './Quote';
 
 class Calculator extends React.Component {
   constructor(props) {
@@ -21,10 +22,10 @@ class Calculator extends React.Component {
     const { total, next, operation } = this.state;
     return (
       <div className="main-container">
-        <div id="header">
-          <h1>Let&apos;s do some math!</h1>
-        </div>
-        <div className="calculator">
+        <section className="quotes--container">
+          <Quote />
+        </section>
+        <section className="calculator">
           <div id="calculator-display">
             {total}
             {operation}
@@ -49,7 +50,7 @@ class Calculator extends React.Component {
           <button type="button" onClick={this.handleClick} className="calculator-key" id="key-0">0</button>
           <button type="button" onClick={this.handleClick} className="calculator-key" id="key-dot">.</button>
           <button type="button" onClick={this.handleClick} className="calculator-key orange-key" id="key-equals">=</button>
-        </div>
+        </section>
       </div>
     );
   }
