@@ -2,17 +2,66 @@
   text-align: center;
 }
 
-.main-container {
+.home {
+  padding: 0 5%;
+  margin: 10%;
+}
+
+nav {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5%;
+  margin-inline: 10%;
+  border-bottom: solid 0.5px gray;
+  font-family: "Yusei Magic", sans-serif;
+  font-size: larger;
+}
+
+.navLink {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  list-style-type: none;
+}
+
+.navItem a,
+span {
+  padding-right: 10px;
+  text-decoration: none;
+  color: #787878;
+}
+
+.main-container {
+  width: 100%;
+  height: calc(100vh - 81.78px);
+  display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin-top: 50px;
+}
+
+.quotes--container {
+  font-family: "Yusei Magic", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #424242;
+  display: flex;
+  width: 25%;
+}
+
+.loading-icon--wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: calc(100vh - 81.78px);
 }
 
 .calculator {
-  width: 300px;
-  height: 300px;
+  width: 500px;
+  height: 500px;
   background-color: #d1d1d1;
   border: 1px solid #0000002e;
   border-radius: 10px;
@@ -67,47 +116,17 @@ button:active {
   transform: scale(0.95);
 }
 
-nav {
+.quotes--page {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  padding: 0 5%;
-  margin-inline: 10%;
-  border-bottom: solid 0.5px gray;
-  font-family: "Yusei Magic", sans-serif;
-  font-size: larger;
-}
-
-.navLink {
-  display: flex;
-  flex-direction: row;
-  list-style: none;
-  list-style-type: none;
-}
-
-.navItem a,
-span {
-  padding-right: 10px;
-  text-decoration: none;
-  color: #787878;
-}
-
-.home {
-  padding: 0 5%;
-  margin: 10%;
-}
-
-#header {
-  font-family: "Yusei Magic", sans-serif;
-  font-size: 1rem;
-  font-weight: 500;
-  color: #424242;
-  display: flex;
-  margin-left: 10%;
-  align-self: flex-start;
+  height: calc(100vh - 81.78px);
 }
 
 .quote {
-  margin: 15% 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
