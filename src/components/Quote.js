@@ -46,7 +46,7 @@ export default function Quote() {
 
   if (hasError) {
     return (
-      <div className="wrap">
+      <div className="error-icon--wrap">
         <p className="error">Something went wrong!</p>
       </div>
     );

@@ -14,8 +14,7 @@ class Calculator extends React.Component {
   }
 
   handleClick(e) {
-    // eslint-disable-next-line react/no-access-state-in-setstate
-    this.setState(calculate(this.state, e.target.innerHTML));
+    this.setState((state) => calculate(state, e.target.innerHTML));
   }
 
   render() {
