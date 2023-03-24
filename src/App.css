@@ -59,6 +59,14 @@ span {
   height: calc(100vh - 81.78px);
 }
 
+.error-icon--wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: calc(100vh - 81.78px);
+}
+
 .calculator {
   width: 500px;
   height: 500px;
