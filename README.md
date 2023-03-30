@@ -96,6 +96,12 @@ To get a local copy up and running, follow these steps.
 - Twitter: [@Ofaouq310](https://twitter.com/ofarouq310)
 - LinkedIn: [@Ofarouq310](https://www.linkedin.com/in/Ofarouq310/)
 
+### 👤Nicholas Kwamena Amissah <a name="authors"></a>
+
+-   GitHub: [Nicholas Amissah](https://github.com/atok624)
+-   Twitter: [Nicholas Amissah](https://twitter.com/MysticalAmissah)
+-   LinkedIn: [Nicholas Amissah](https://www.linkedin.com/in/nicholas-amissah-153b09154)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
