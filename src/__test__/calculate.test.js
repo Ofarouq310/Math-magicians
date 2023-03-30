@@ -1,6 +1,6 @@
 import calculate from '../logic/calculate';
 
-describe('testing calculators functionalities', () => {
+describe('testing functionalities of the calculator', () => {
   test('All clear button returns nothing/null', () => {
     const operands = {
       total: null,
